@@ -1,16 +1,100 @@
-# React + Vite
+# 🎬 Find A Movie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern movie discovery application built with React, powered by The Movie Database (TMDB) API and Appwrite.
 
-Currently, two official plugins are available:
+This application allows users to search for movies, explore popular titles, and track search analytics using a cloud-hosted database.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🔎 Search movies dynamically
+- 🎥 Discover popular movies
+- 🖼 Display movie posters and titles
+- 📊 Track search frequency in Appwrite
+- ⚡ Fast development with Vite
+- 🎨 Clean UI styled with Tailwind CSS
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+**Frontend**
+- React
+- Vite
+- Tailwind CSS
+
+**Backend / Database**
+- Appwrite (Cloud)
+
+**External API**
+- TMDB (The Movie Database)
+
+---
+
+## 🔐 Environment Variables
+
+Create a `.env.local` file in the root of the project:
+
+```
+VITE_TMDB_API_KEY=your_tmdb_read_access_token
+VITE_APPWRITE_PROJECT_ID=your_project_id
+VITE_APPWRITE_DATABASE_ID=your_database_id
+VITE_APPWRITE_COLLECTION_ID=your_collection_id
+```
+
+⚠️ Important:
+- The file must be named `.env.local`
+- It must be in the project root (not inside `src`)
+- Restart the dev server after adding or changing environment variables
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository
+
+```
+git clone https://github.com/your-username/your-repository-name.git
+```
+
+2. Install dependencies
+
+```
+npm install
+```
+
+3. Start the development server
+
+```
+npm run dev
+```
+
+The app will run on:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 📄 License
+
+MIT License
+
+---
+
+## 🎯 Project Purpose
+
+This project showcases:
+
+- API integration
+- React hooks (`useState`, `useEffect`)
+- Cloud database operations
+- Environment variable management
+- Debugging CORS and authentication issues
+- Real-world frontend/backend interaction
+
+---
+
+Built with modern web technologies for scalable movie discovery and analytics.
