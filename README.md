@@ -4,6 +4,10 @@ A modern movie discovery application built with React, powered by The Movie Data
 
 This application allows users to search for movies, explore popular titles, and track search analytics using a cloud-hosted database.
 
+[![Alt text](/app-image.png)](https://find-a-movie.vercel.app/)
+
+[View Here]([URL or Path](https://find-a-movie.vercel.app/))
+
 ---
 
 ## 🚀 Features
